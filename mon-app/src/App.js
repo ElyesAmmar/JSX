@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-// import comp from './Components/comp';
-import navbar from './Components/navbar';
-// import comp2 from './Components/comp2';
-
+import React from 'react';
+import Photo from './Profile/Components/ProfilePhoto';
+import Name from './Profile/Components/FullName';
+import Adress from './Profile/Components/Adress'
 import './App.css';
 
 
-class App extends Component {
-  return () {
-    return (
-    
-      <React.Fragment>
-        <navbar />
-        {/* <comp /> */}
-        {/* <comp2 /> */}
-      </React.Fragment>
+function App (){
+  return ( 
+   
+      <div className='App'> 
+        <div>
+        <Photo />
+        </div>
+        <Name />
+        <Adress />
+      </div>
       
   
+  
   );
-}
 }
 
 export default App;

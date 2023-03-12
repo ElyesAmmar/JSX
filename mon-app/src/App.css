@@ -1,7 +1,7 @@
-.cards{
-    margin-top: 50px;
-    display: flex;
-    
-    justify-content: space-around;
-    width: 100%;
+.App {
+    display: block;
+    border: solid black 2px;
+    width: 200px;
+    border-radius:10px ;
+    margin: 50px auto;
 }
